@@ -1,0 +1,145 @@
+{"intents":[
+    {   
+        "tag":"greetings",
+        "patterns":["hello","hey","hi","greetings","What's up"],
+        "responses":["Hello!","Hey!","What can I do for you?"]
+        
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["cya","see you later","Goodbye","I tam Leaving","Have a Good Day","Bye"],
+        "responses":["Goodbye!","Sad to see you go","Talk to you later","Let me know if you need anything :)"]
+
+    },
+    {
+        "tag": "company",
+        "patterns": [
+            "I want to create a company",
+            "what should i do to create a company",
+            "company creation requirement",
+            "I would like to create a company"
+        ],
+        "responses": [
+            "- Choose a company type (SARL/SA..), and Simplified Joint Stock Company (SAS).\n- Choose a Company name and check its availability.\n- Prepare the Articles of Association.\n- Deposit capital.\n- Register the company.\n- Register with the Tax Administration.\n- Social security registration: Enroll your company and its employees with the National Social Security Fund (CNSS).\n- Business license.\n- Hire employees."
+        ]
+    },
+    
+    {
+        "tag":"name",
+        "patterns":["What is your name?","What should i call you?","who are you?","whats your name?"],
+        "responses":["My name is nanobot!","You can call me nanobot! What can i do for you?"]
+    },
+    {
+        "tag": "hours",
+        "patterns": [
+            "What are your working hours?",
+            "When are you available?",
+            "What time do you work?",
+            "When can I reach you?"
+        ],
+        "responses": [
+            "I am available 24/7 to assist you.",
+            "You can reach me anytime you want, I'm here to help!"
+        ]
+    },
+    {
+        "tag": "services",
+        "patterns": [
+            "What services do you provide?",
+            "What can you help me with?",
+            "What do you offer?",
+            "How can you assist me?"
+        ],
+        "responses": [
+            "I can provide information on company creation, answer general questions, and help with various tasks. Let me know what you need assistance with!"
+        ]
+    },
+    {
+        "tag": "location",
+        "patterns": [
+            "Where is your office located?",
+            "What is your address?",
+            "Where can I find you?",
+            "How do I get to your office?"
+        ],
+        "responses": [
+            "Our office is located at Gueliz Marrakech, Morocco.",
+            "You can find us at Gueliz Marrakech, Morocco."
+        ]
+    },
+    {
+        "tag": "contact",
+        "patterns": [
+            "How can I contact you?",
+            "What is your phone number?",
+            "What is your email address?",
+            "How do I get in touch with you?"
+        ],
+        "responses": [
+            "You can contact us at 555-123-4567 or email us at nanostategy@outlook.com.",
+            "Feel free to call us at 555-123-4567 or send an email to nanostategy@outlook.com."
+        ]
+    },
+    {
+        "tag": "pricing",
+        "patterns": [
+            "How much do your services cost?",
+            "What are your prices?",
+            "What are your fees?",
+            "What is the cost of your services?"
+        ],
+        "responses": [
+            "Our pricing depends on the specific service you require. Please provide more details, and I will be happy to give you an estimate.",
+            "The cost of our services varies based on your needs. Please let me know which service you are interested in, and I can provide more information."
+        ]
+    },
+    {
+        "tag": "company_types",
+        "patterns": [
+        "What are the different types of companies?",
+        "Which company types can I choose?",
+        "What are the options for company types?",
+        "Tell me about company types in Morocco"
+        ],
+        "responses": [
+        "In Morocco, you can choose from several company types, including:\n1. Limited Liability Company (SARL)\n2. Joint Stock Company (SA)\n3. Simplified Joint Stock Company (SAS)\n4. Branch of a foreign company\n5. Free Zone company\nConsider the benefits and requirements of each type before making your decision."
+        ]
+        },
+        {
+        "tag": "capital_requirements",
+        "patterns": [
+        "How much capital is required for a company?",
+        "What are the capital requirements?",
+        "What is the minimum capital for a company?",
+        "How much money do I need to start a company?"
+        ],
+        "responses": [
+        "Capital requirements vary based on the type of company:\n1. SARL: Minimum capital is MAD 10,000.\n2. SA: Minimum capital is MAD 300,000.\n3. SAS: No minimum capital requirement.\n4. Branch of a foreign company and Free Zone company: Capital requirements depend on the specific business activities and location."
+        ]
+        },
+        {
+        "tag": "registration",
+        "patterns": [
+        "How do I register my company?",
+        "What is the process of registering a company?",
+        "What are the steps to register a company?",
+        "Tell me about company registration in Morocco"
+        ],
+        "responses": [
+        "To register your company in Morocco, follow these steps:\n1. Choose a company type (SARL/SA, SAS, etc.).\n2. Check the availability of your desired company name.\n3. Prepare the Articles of Association.\n4. Deposit the required capital in a bank account.\n5. Register the company with the Regional Investment Center (CRI) and obtain a registration certificate.\n6. Register with the Tax Administration for a tax identification number.\n7. Enroll your company and its employees with the National Social Security Fund (CNSS).\n8. Obtain a business license.\n9. Hire employees, if needed."
+        ]
+        },
+        {
+            "tag": "business_license",
+            "patterns": [
+            "How do I obtain a business license?",
+            "What is the process of obtaining a business license?",
+            "What are the steps to get a business license?",
+            "Tell me about obtaining a business license in Morocco"
+            ],
+            "responses": [
+            "To obtain a business license in Morocco, follow these steps:\n1. Fill out the appropriate business license application form.\n2. Provide a copy of your company's registration certificate from the CRI.\n3. Provide a copy of your company's tax identification number.\n4. Submit the completed form and required documents to the local authority responsible for issuing business licenses.\n5. Once your application is approved, you will receive a business license for your company."
+            ]
+            }
+        
+]}
